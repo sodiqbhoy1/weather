@@ -26,11 +26,6 @@ searchBtn.addEventListener('click', ()=>{
         .then((data)=>{
 
 
-            if(data){
-
-                container.style.display = "none"
-
-                
             result.innerHTML = `
 
             <div class="weather-container">
@@ -51,11 +46,6 @@ searchBtn.addEventListener('click', ()=>{
         </div>
 
             `
-
-            city.value=""
-
-            }
-
 
 
         })
